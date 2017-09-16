@@ -1,5 +1,5 @@
 /* -lynda.com base template styles
- based partially from normalize.css v3.0.0 | MIT License | git.io/normalize 
+ based partially from normalize.css v3.0.0 | MIT License | git.io/normalize
  and includes micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/
  */
 
@@ -18,7 +18,7 @@ article,aside,details,figcaption,figure,footer,header,main,nav,section,summary {
 /* Correct `inline-block` display not defined in IE 8/9. */
 audio,canvas,progress,video {
   display: inline-block;
-  vertical-align: baseline; 
+  vertical-align: baseline;
 }
 
 /*Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices.*/
@@ -73,14 +73,41 @@ pre {
 	padding: 1em 2em;
 	color: #F2EFB5;
 	font-size: 1.4em;
-	white-space: pre-wrap; 
- 	white-space: -moz-pre-wrap;  
-	white-space: -pre-wrap;      
-	white-space: -o-pre-wrap;  
+	white-space: pre-wrap;
+ 	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
 	word-wrap: break-word;
 	overflow: auto;
 }
+/* Specific elements
+ ========================================================================*/
+header,main,footer {
+	padding: 0 2em;
+}
+header {
+	 border-bottom:1px solid rgb(157,189,198);
+	 margin-bottom: 1em;
+	 background: rgb(218,234,239);
+ }
+header h1 {
+	 color: rgb(127,64,45);
+	 padding-top: 1em;
+ }
 
+ main h2 {
+	 margin-top: 0.2em;
+	 margin-bottom: 0.5em;
+ }
+  main h3 {
+	 margin-top: 0.2em;
+	 margin-bottom: 0;
+ }
+ footer {
+	 background: rgb(157,189,198);
+	 padding: 2em;
+	 font-size: 0.8em;
+ }
 /* Forms
    ========================================================================== */
 
